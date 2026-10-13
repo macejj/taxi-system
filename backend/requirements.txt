@@ -1,0 +1,22 @@
+# 出租车运营管理与决策支持系统 - 后端依赖
+# 安装： pip install -r requirements.txt
+
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9
+pydantic>=2.6
+
+# 数据库
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+python-dotenv>=1.0
+
+# 认证
+passlib>=1.7.4
+bcrypt>=3.2,<4.1
+python-jose>=3.3
+
+# 数据分析与预测（预测算法基于 numpy 手工实现，不依赖 scikit-learn）
+numpy>=1.26
+pandas>=2.1
+openpyxl>=3.1
